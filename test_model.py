@@ -4,7 +4,7 @@ from keras.models import load_model
 from utils import preprocess_image  # Import the preprocess_image function from utils
 
 # Load the pre-trained model
-model_path = r'C:\Users\user\OneDrive\Desktop\face_recognition_p\emotion_recognition_model.h5'
+model_path = r'C:\Users\user\OneDrive\Desktop\face_recognition\e.h5'
 model = load_model(model_path)
 
 # Assuming you have an image file path
