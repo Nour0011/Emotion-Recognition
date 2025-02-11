@@ -6,7 +6,7 @@ from keras.models import load_model
 model = load_model("path_to_your_model.h5")
 
 # Load and preprocess an example image
-image_path = "C:\\Users\\user\\OneDrive\\Desktop\\data_p\\surprise\\images - 2020-11-06T203445.294_face.png"
+image_path = "C:\\Users\\user\\OneDrive\\Desktop\\data_p\\image.png"
 img = Image.open(image_path)
 
 # Resize image to (128, 128) and convert to numpy array
